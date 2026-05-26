@@ -1,0 +1,7 @@
+streamlit
+tensorflow
+numpy
+pillow
+matplotlib
+h5py
+protobuf==3.20.*
