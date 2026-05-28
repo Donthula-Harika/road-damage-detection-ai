@@ -19,7 +19,7 @@ st.set_page_config(
 # =====================================
 # LOAD MODEL
 # =====================================
-model = load_model("road_damage_model.keras")
+model = load_model("road_damage_model.keras", compile=False)
 
 with open("label_mapping.json", "r") as f:
     label_mapping = json.load(f)
